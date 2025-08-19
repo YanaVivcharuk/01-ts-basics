@@ -1,4 +1,4 @@
-type Status = "loading" | "error";
+type Status = "loading" | "success" | "error";
 
 function logStatus(status: Status): void {
   if (status === "loading") {
